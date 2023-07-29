@@ -82,3 +82,29 @@ ul ul {
 #reference {
   padding-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: block;
+    position: relative;
+    height: 40vh;
+    width: 100vh;
+    overflow: auto;
+  }
+
+  .sidebar ul {
+    border: #333 1px solid;
+  }
+
+  .sidebar h1 {
+    text-align: center;
+  }
+
+  .content {
+    display: block;
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    margin-left: 15px;
+  }
+}
